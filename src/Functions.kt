@@ -1,11 +1,14 @@
 fun main(){
-    val result1 = add(4,5 )
-    println(result1)
-    val result2 = add(5,6)
-    println(result2)
+    printMessage(count = 3)  //Arguments
+    printMessage()
 }
-fun add(num1 : Int, num2 : Int) :Int
-{
-    val sum = num1+num2
-    return sum
+fun printMessage(count :Int = 2){   //count parameter
+    for (i in 1..count)
+    println("Hello $i")
+}
+fun add(num1 : Int, num2 : Int)  =num1+num2
+
+fun evenOrOdd(num1 :Int) :Unit{
+    val result = if (num1 % 2 == 0) "Even" else "Odd"
+    println(result)
 }
