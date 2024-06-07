@@ -9,6 +9,8 @@ open class Shape(){
     open fun area() :Double{
         return 0.0
     }
+
+    open fun display() {}
 }
 class Circle(val radius :Double) : Shape(){
     override fun area():Double{
