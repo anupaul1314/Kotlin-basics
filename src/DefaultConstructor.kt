@@ -1,7 +1,7 @@
 fun main() {
     var ob = Calculator()
     println(ob.add(4,5))
-    println(ob.multiplty(4,0))
+    println(ob.multiply(4,0))
 
 }
 class Calculator(){
@@ -9,7 +9,7 @@ class Calculator(){
         return a+b
     }
 
-    fun multiplty(a: Int,b: Int) :Int{
+    fun multiply(a: Int,b: Int) :Int{
         return a*b
     }
 
