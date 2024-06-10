@@ -4,7 +4,7 @@ fun main() {
     println(ob.multiply(4,0))
 
 }
-class Calculator(){
+class Calculator {
     fun add(a:Int,b:Int) :Int{
         return a+b
     }

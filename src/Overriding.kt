@@ -15,9 +15,6 @@ open class Mobile (val type:String){
  class OnePlus(typeParam:String) : Mobile (typeParam){
      override val name: String ="New String"
      override val size:Int = 6
-     override fun display() {
-         super.display() //To call parent function
-     }
      override fun toString(): String {
          return "Name - $name Size - $size"
      }

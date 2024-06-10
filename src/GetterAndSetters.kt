@@ -22,8 +22,4 @@ class PersonH (nameParam :String,ageParam: Int){
         }
     //Default Getter and Setter
     var email:String = ""
-        get() = field
-        set(value) {
-            field = value
-        }
 }

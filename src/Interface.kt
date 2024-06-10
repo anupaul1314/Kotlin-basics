@@ -10,7 +10,7 @@ fun dragObjects(objects: Array<Shape3>){
     }
 }
 
-abstract class Shape3(){
+abstract class Shape3 {
     abstract fun area(): Double
     abstract fun drag()
 }

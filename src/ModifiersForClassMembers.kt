@@ -4,8 +4,8 @@ fun main() {
 
 }
 open class Z{
-    public var p =10
-    public var q =10
+    var p =10
+    var q =10
     internal var r =10
     protected var s =10
 }

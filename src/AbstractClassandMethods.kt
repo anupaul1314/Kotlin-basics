@@ -3,7 +3,7 @@ fun main() {
     println(circle2.area())
     circle2.display()
 }
-abstract class Shape2(){
+abstract class Shape2 {
     var name : String = ""
     abstract fun area() :Double
     abstract fun display()

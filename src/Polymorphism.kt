@@ -5,7 +5,7 @@ fun main() {
     println(circle.area())
     println(square.area())
 }
-open class Shape(){
+open class Shape {
     open fun area() :Double{
         return 0.0
     }

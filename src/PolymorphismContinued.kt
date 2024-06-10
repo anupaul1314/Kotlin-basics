@@ -3,7 +3,7 @@ fun main() {
     println(circle1.toString())
 }
 
-open class Shape1(){
+open class Shape1 {
     open fun area() : Double = 0.0
     override fun toString(): String {
         return "I am Shape"
