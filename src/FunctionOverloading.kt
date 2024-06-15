@@ -6,12 +6,12 @@ fun main(){
     fn = ::addition
     println(fn(2.2,2.1))
 
-//    println( addition(a = 2, b = 3))
-//    println( addition(a = 2.3, b = 4.5))
+   println( addition(a = 2, b = 3))
+   println( addition(a = 2.3, b = 4.5))
 }
-//fun addition(a : Int, b : Int) :Int{
-//    return a+b
-//}
+fun addition(a : Int, b : Int) :Int{
+    return a+b
+}
 fun addition(a: Double, b: Double) :Double
 {
     return a+b

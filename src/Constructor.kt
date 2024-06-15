@@ -15,9 +15,9 @@ class Automobile(val name: String, var seating:Int, val engineType:String){    /
 }
 
 
-//class Insaan (nameParam: String,ageParam:Int)
-//{
-//    var name:String = nameParam
-//    var age:Int = ageParam
-//}
+class Insaan (nameParam: String,ageParam:Int)
+{
+    var name:String = nameParam
+    var age:Int = ageParam
+}
 

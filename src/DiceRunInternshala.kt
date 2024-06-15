@@ -11,4 +11,5 @@ fun main()
     val diceResult = Random.nextInt(1, 6)
     println("The dice rolled: $diceResult")
     println("Thank you for playing DiceRun, $playername!")
+    
 }

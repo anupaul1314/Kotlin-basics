@@ -1,4 +1,4 @@
-/*fun main(){
+fun main(){
     //While Loop
 
     var count = 5
@@ -6,9 +6,6 @@
         println("Heloo World")
         count --
     }
-}
-
-fun main (){
     var number = 2
     var index = 1
     while (index<=10){
@@ -16,12 +13,11 @@ fun main (){
         println(number*index)
         index ++
     }
-
-}
-*/
-fun main(){
-    var index = 5
+    var index1 = 5
     do {
         println("Hello")
-    } while (index>5)
+    } while (index1>5)
 }
+
+
+
