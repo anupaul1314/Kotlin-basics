@@ -1,7 +1,7 @@
 fun main() {
-    val milkShakeVariable1 = chooseItem1({
+    val milkShakeVariable1 = chooseItem1 {
         "I took $it scoops of Ice cream"
-    })
+    }
     milkShakeVariable1()
 }
 

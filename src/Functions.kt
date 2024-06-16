@@ -12,3 +12,4 @@ fun evenOrOdd(num1 :Int) :Unit{
     val result = if (num1 % 2 == 0) "Even" else "Odd"
     println(result)
 }
+

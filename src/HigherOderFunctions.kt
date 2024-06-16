@@ -1,7 +1,7 @@
 import kotlin.math.pow
 
 fun main() {
-    var fn: (a:Double,b:Double) ->Double =::sum
+    var fn: (a:Double,b:Double) ->Double =::sum1
     println(fn(2.0,4.0))
     calculator6(5.0,5.0,::sum1)
 }
